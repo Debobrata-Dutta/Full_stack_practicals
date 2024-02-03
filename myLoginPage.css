@@ -1,0 +1,37 @@
+body{
+    background-color:#5aaa51;
+}
+.heading{
+    font-size: 80px ;
+    text-align: center;
+    font-family: 'Gaegu', sans-serif;
+}
+.gravity{
+    width:400px;
+    height:300px;
+
+}
+
+#popup{
+    font-family: 'Gaegu', sans-serif;
+    width: 500px;
+    border:solid;
+    height: 300px;
+    margin-left: 665px;
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(147, 4, 4, 0.91);
+    border-color: #9f5829;
+    border-width:5px
+}
+.form-control1{
+    margin-top:30px;
+    border-radius: 9px;
+
+}
+.form-control2{
+    margin-top:30px ;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
