@@ -1,0 +1,62 @@
+body{
+    background-color:#5aaa51;
+}
+.heading{
+    font-size: 80px ;
+    text-align: center;
+    font-family: 'Gaegu', sans-serif;
+}
+.gravity{
+    width:400px;
+    height:300px;
+
+}
+
+#popup{
+    font-family: 'Gaegu', sans-serif;
+    width: 500px;
+    border:solid;
+    height: 300px;
+    margin-left: 430px;
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(147, 4, 4, 0.91);
+    border-color: #9f5829;
+    border-width:5px
+}
+.form-control1{
+    margin-top:30px;
+    border-radius: 9px;
+
+}
+.form-control2{
+    margin-top:30px ;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+#h1{margin-top: 20px;
+    color:white;
+    margin-bottom: -10px;
+    font-size:20px}
+#websites{font-size: 20px}
+#heading{ margin-top: 10px;
+    color:white;
+    font-size: 20px}
+
+@media (min-width:300px) and (max-width:1000px){
+    .heading{
+        font-size: 120px ;}
+    .gravity{
+        width:800px;
+        height:600px;
+
+    }
+    #h1{font-size: 40px}
+    #websites{font-size: 50px}
+    body{font-size: 50px}
+    #popup{margin-left: 130px;
+        width: 700px;
+        height: 500px;}
+    .btn-danger{font-size: 30px}
+    }
