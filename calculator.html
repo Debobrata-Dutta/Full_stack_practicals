@@ -11,8 +11,10 @@
         document.getElementById('textinput').value += value;
     }
     function deleteLastCharacter(str) {
-        str = str.substring(0, str.length-1);
-        input.value = str;
+        str = document.getElementById("textinput").value
+        len = (str.length)-1
+        str = str.slice(0,len)
+        document.getElementById("textinput").value=str
     }
 
     function clearDisplay() {
